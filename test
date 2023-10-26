@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thông tin</title>
+</head>
+<body>
+    <h1>Form đăng ký</h1>
+    <form action="" method="">
+        <div class="form-group">    
+            <label for="fullname">Họ và tên</label>
+            <br>
+            <input type="text" id= "fullname" placeholder= "Họ và tên">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <br>
+            <input type="Email" id="email" placeholder="Email" >
+        </div>
+        <div class="form-group">
+            <label for="number">Số điện thoại</label>
+            <br> 
+            <input type="number" id="number" placeholder="Số điện thoại">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" placeholder="mật khẩu">
+        </div> 
+    
+    </form>
+    
+</body>
+</html>
